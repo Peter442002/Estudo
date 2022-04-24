@@ -159,11 +159,24 @@ while True:
 _________________________________________________________________________
 
 """
+#Tratamento de Texto
+"""
+                                Primeira Letra Maiuscula
+                            .title()
+
+                                Texto em Caixa Alta
+                            .upper()
+
+                                Texto todo em minusculo
+                            .lower
+
+                                Remover espaços entre as palavras
+                            .strip()
+
+
+"""
 #Estruturas
 """
-
-        Udemy
-
 
 Dir -> aprensenta todos os atributos e funçoes/metodos disponiveis para determinado tipo de dado ou variavel.
 dir(x)
@@ -1134,6 +1147,21 @@ print(tabuleiro)
 
     -Conhecidas Por Expressoes lambdas, ou simplesmente Lambdas, sao funçoes sem nome nome, ou seja, funçoes anonimas.
     -Podemos ter expressoes Lambdas com multiplsa entradas:
+Ex:
+
+Sem Entrada:
+        amar = lambda: "como nao amar Python?"
+Com uma Entrada:
+        uma = lambda x: 3 * x + 1
+Com Duas Entradas:
+        duas = lambda x, y: (x * y) **0.5
+Com Varias Entrada:
+        tres = lambda x, y, z: 3/ (1/ x + 1 / y + 1/ z)
+
+print(amar())
+print(uma(1))
+print(duas())
+print(tres())
 
 nome_completo = lambda nomes, sobrenome: nome.strip().title() + " " + sobrenome.strip().title()
                             Como Usar uma Lambda:
@@ -1160,5 +1188,16 @@ lambda x: 3 * x + 1
 nome = lambda x: 3 * x + 1
 print(nome(1))
 
+Ex2:
+nome_completo = lambda nome, sobrenome: nome.strip().title() + " " + sobrenome.strip().title()
+
+print(nome_completo("angelina", "jolie"))
+print(nome_completo("angelina", "Jonex        "))
 
 """
+
+
+
+
+
+

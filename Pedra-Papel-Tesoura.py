@@ -1,4 +1,11 @@
+"""
+- Adicionar armazenamento de resultados e enviar após o final do jogo, em uma forma comparativa.
 
+N° da partida| Resultado Jogador 1| Resultado Jogador 2| Ganhador| Pontuçao jogador 1| Pontuçao Jogador 2
+
+
+
+"""
 from random import random 
 
 valor1 = ()
