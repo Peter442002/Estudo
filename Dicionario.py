@@ -1,27 +1,4 @@
-#Pedra Papel Tesoura:
-"""from random import random
-player1 = ""
-player2 = ""
 
-
-def jogo():
-    def pedra_papel_tesoura1 ():
-        valor = random()
-    #        print(valor)
-        if  0.66 > valor > 0.33 :
-            return f"{player1}a\n \tPedra"
-        elif valor > 0.66:
-            return f"{player1}\n \tPapel"
-        return f"{player1}a\n \tTesoura"
-
-    def pedra_papel_tesoura2 ():
-        valor = random()
-    #        print(valor)
-        if  0.66 > valor > 0.33 :
-            return f"{player2}a\n \tPedra"                                             
-        elif valor > 0.66:
-            return f"{player2}\n \tPapel"                                            
-        return f"{player2}a\n \tTesoura"  """
 #5Q's
 """
 1- Quais os dados de entrada.
@@ -186,8 +163,7 @@ _________________________________________________________________________
 """
 
         Udemy
-login = thalles1809@gmail.com
-Thalles@200106
+
 
 Dir -> aprensenta todos os atributos e funçoes/metodos disponiveis para determinado tipo de dado ou variavel.
 dir(x)
@@ -1152,4 +1128,37 @@ iterando com loops em uma lista aninhada:
 tabuleiro = [[numero for numero in range(1, 10)] for grupos in range(1, 4)]
 print(tabuleiro)
 """
+#Lambdas
+"""
+                            Lambdas
 
+    -Conhecidas Por Expressoes lambdas, ou simplesmente Lambdas, sao funçoes sem nome nome, ou seja, funçoes anonimas.
+    -Podemos ter expressoes Lambdas com multiplsa entradas:
+
+nome_completo = lambda nomes, sobrenome: nome.strip().title() + " " + sobrenome.strip().title()
+                            Como Usar uma Lambda:
+
+    -Criar uma variavel e colocar que a funcao lambda é igual a variavel.
+
+                            Por que usar uma expressao lambda:
+
+
+
+
+
+        #Funçao Comum 
+
+def funcao(x):
+    return 3 * x + 10
+
+print(funcao(4))
+print(funcao(6))
+
+        #Expressao Lambda
+
+lambda x: 3 * x + 1
+nome = lambda x: 3 * x + 1
+print(nome(1))
+
+
+"""
