@@ -31,8 +31,7 @@ V = None
 paises3 = None
 
 while True:
-    print("Digite a Chave")
-    x = input()
+    x = input("Digite a Chave\n")
     if x in paises2:
         print(f"Encontrei!\n")
         print(x)
@@ -342,6 +341,7 @@ dicionario = {chave: valor,}
                 #Forma 1
         
 paises = {"Br": "Brasil", "Eua": "Estados Unidos", "CA": "Canada"}
+
 
                 #Forma 2
 
